@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+#segundo-h1 {
+    color: brown;
+}
+
+.terceiro-h1 {
+    color: royalblue;
+}
+
+.h1-vermelho {
+    color: red;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size:18px;
+}
+
+.container {
+    background-color: #333;
+    color: #eee;
+    margin: 0 auto;
+    border: 5px solid red;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.social-aside h2{
+    text-align: center;
+}
+
+.social-aside h2:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.social-aside ul {
+    list-style: none;
+    text-align: center;
+}
+
+.social-aside ul a {
+    text-decoration: none;
+    color: black;
+}
+ /* aplica um efeito ao passar o mouse */
+.social-aside ul a:hover {
+    color: red;
+}
+ /* estiliza links ja visitados */
+.social-aside ul :visited {
+    color: green;
+}
+
+ /* Formularios */
+
+.main-form {
+    padding-left: 20px;
+    display: inline;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.main-form .form-group {
+    padding-bottom: 10px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-form .form-group input{
+    padding: 10px;
+    width: 300px;
+}
+
+.main-form .form-group label{
+    display: block;
+}
+
+.button {
+    padding: 15px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.box{
+    margin: auto;
+    width: 80%;
+
+}

@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    align-items:center;
+
+}
+.h1 {
+    color: blue;
+    font-size: 10px;
+    background: gray;
+}
+
+#container {
+    width: 200px;
+}
+
+
+.m-40 {
+    margin: 40px;
+}
+
+.h {
+    color: blue;
+    font-size: 60px;
+    background: gray;
+}
+
+.box-model h1 {
+    border: 1px solid red;
+    margin: 200px;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+  }
+  
+  
+  /* RELATIVE */
+  .box1 {
+    background-color: red;
+    position: relative;
+    left: 100px;
+    top: 80px
+  }
+  
+  .box2 {
+    background-color: green;
+  }
+  
+  .box3 {
+    background-color: blue;
+  }
+
+  /* ABSOLUTE */
+
+  .boxa {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+  }
+  
+  .boxa1 {
+    background-color: red;
+    position: absolute;
+    left: 100px;
+    top: 1300x
+  }
+  
+  .boxa2 {
+    background-color: green;
+  }
+  
+  .boxa3 {
+    background-color: blue;
+  }
+
+  /* Flex box */
+
+  .container {
+      width: 100vw;
+    display: flex;
+    justify-content:center;
+}
+.box {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 8px;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+ /* Grid */
+.grid {
+    display: grid;
+    height: 100vh;
+    grid-template-areas:
+        "header header" 
+        "main aside"
+        "footer footer";
+    grid-template-rows: 30px 1fr 40px; /*fr = fraçao*/
+    grid-template-columns: 1fr 80px;
+        
+}
+
+.grid header{
+    grid-area: header;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+}
+
+.grid main{
+    grid-area: main;
+    background-color: red;
+}
+
+.grid aside{
+    grid-area: aside;
+    background-color: blue;
+}
+.grid footer{
+    grid-area: footer;
+    background-color: gray;
+}
